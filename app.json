@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "weather_mobile",
-    "slug": "weather_mobile",
+    "slug": "weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03ab803b-7cf5-4ace-8eee-cbc8d4bec278"
+      }
+    },
+    "owner": "jpontel2002"
   }
 }
